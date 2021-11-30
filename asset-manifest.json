@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/app/static/css/main.0e3da837.chunk.css",
+    "main.js": "/app/static/js/main.4e2f8e35.chunk.js",
+    "main.js.map": "/app/static/js/main.4e2f8e35.chunk.js.map",
+    "runtime-main.js": "/app/static/js/runtime-main.154015b8.js",
+    "runtime-main.js.map": "/app/static/js/runtime-main.154015b8.js.map",
+    "static/css/2.2b5b2610.chunk.css": "/app/static/css/2.2b5b2610.chunk.css",
+    "static/js/2.44af78e4.chunk.js": "/app/static/js/2.44af78e4.chunk.js",
+    "static/js/2.44af78e4.chunk.js.map": "/app/static/js/2.44af78e4.chunk.js.map",
+    "index.html": "/app/index.html",
+    "static/css/2.2b5b2610.chunk.css.map": "/app/static/css/2.2b5b2610.chunk.css.map",
+    "static/css/main.0e3da837.chunk.css.map": "/app/static/css/main.0e3da837.chunk.css.map",
+    "static/js/2.44af78e4.chunk.js.LICENSE.txt": "/app/static/js/2.44af78e4.chunk.js.LICENSE.txt",
+    "static/media/apps_1.0ded5794.png": "/app/static/media/apps_1.0ded5794.png",
+    "static/media/main.css": "/app/static/media/sun.bf2c9e99.png",
+    "static/media/bootstrap-icons.css": "/app/static/media/bootstrap-icons.ea6f3dfe.woff",
+    "static/media/credit.0bbcfb7a.png": "/app/static/media/credit.0bbcfb7a.png",
+    "static/media/download.f32c62eb.png": "/app/static/media/download.f32c62eb.png",
+    "static/media/giphy.67399cc5.gif": "/app/static/media/giphy.67399cc5.gif",
+    "static/media/logo-react.283bf42c.png": "/app/static/media/logo-react.283bf42c.png",
+    "static/media/music.a6cb4ed9.jpeg": "/app/static/media/music.a6cb4ed9.jpeg",
+    "static/media/playstore.b9f6dc7b.png": "/app/static/media/playstore.b9f6dc7b.png",
+    "static/media/shopping.35751a6c.jpg": "/app/static/media/shopping.35751a6c.jpg",
+    "static/media/spotify.0fe0e82c.jpg": "/app/static/media/spotify.0fe0e82c.jpg",
+    "static/media/unity-logo.af6100e6.png": "/app/static/media/unity-logo.af6100e6.png",
+    "static/media/unity.6e527497.jpg": "/app/static/media/unity.6e527497.jpg",
+    "static/media/website.55e05e96.jpeg": "/app/static/media/website.55e05e96.jpeg",
+    "static/media/work1.ac3c83e1.jpg": "/app/static/media/work1.ac3c83e1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.154015b8.js",
+    "static/css/2.2b5b2610.chunk.css",
+    "static/js/2.44af78e4.chunk.js",
+    "static/css/main.0e3da837.chunk.css",
+    "static/js/main.4e2f8e35.chunk.js"
+  ]
+}
