@@ -1,0 +1,200 @@
+@media only screen and (min-width: 600px) {
+  body {
+    height: 100vh;
+    background-image: url(../assets/sun.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+  .navbar-nav {
+    height: 40px !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  #basic-navbar-nav {
+    position: relative !important;
+    display: grid !important;
+    justify-content: end;
+  }
+
+  .navbar-collapse .nav-link {
+    padding-left: 20px !important;
+  }
+
+  .navbar-collapse #basic-nav-dropdown {
+    padding-left: 30px;
+  }
+
+  .headimg {
+    height: 500px;
+    background-image: linear-gradient(120deg, rgba(11, 51, 228, 0.5) 0%, rgba(16, 89, 197, 0.5) 100%), url(../assets/header_3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    border-radius: 10px;
+  }
+
+  .navbar-nav .dropdown-menu {
+    margin-top: 10px !important;
+  }
+
+  .dropdown-menu {
+    width: 300px !important;
+  }
+
+  @keyframes rotate {from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}}
+  @-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}}
+
+  .element:hover {
+    -webkit-animation: 3s rotate linear infinite;
+    animation: 3s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  }
+
+}
+
+/* General */
+
+body {
+  font-family: 'Ubuntu', sans-serif !important;
+}
+
+.navbar {
+  background: rgba(31, 30, 30, 0.726) !important;
+}
+
+.navbar:hover {
+  background: rgba(38, 82, 202, 0.87) !important;
+}
+
+.dropdown-menu {
+  left: -75px !important;
+}
+
+.navbar-nav .dropdown-menu {
+  background: rgba(43, 42, 42, 0.726);
+  border-radius: 20px;
+}
+
+.dropdown-item {
+  color: #fff !important;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(38, 104, 202, 0.87) !important;
+  border-radius: 10px;
+}
+
+.navbar-nav .nav-link {
+  color: rgb(247, 243, 243) !important;
+}
+
+.navbar-nav .nav-link .nav-link:hover {
+  background: rgba(31, 29, 29, 0.658);
+  border-radius: 10px;
+}
+
+#basic-nav-dropdown:hover {
+  background: rgba(31, 29, 29, 0.658);
+  border-radius: 10px;
+}
+
+strong {
+  color: rgb(255, 254, 254);
+}
+
+p {
+  color: rgb(240, 240, 240);
+}
+
+h1 {
+  color: rgba(250, 250, 250, 0.87);
+}
+
+h3 {
+  color: rgb(255, 255, 255);
+}
+
+li {
+  color: rgb(255, 255, 255);
+}
+
+.line{
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+/* End General */
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url(../assets/background_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+  .headimg {
+    height: 800px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    border-radius: 10px;
+    background-image: linear-gradient(120deg, rgba(12, 71, 235, 0.5) 0%, rgba(16, 89, 197, 0.5) 100%), url(../assets/head_3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+  .navbar-nav {
+    display:flex!important;
+    flex-direction:column-reverse!important;
+    justify-content: center;
+  }
+
+  .mr-auto, .mx-auto {
+    align-items: center;
+  }
+
+  .navbar-nav .dropdown-menu {
+    position: absolute !important;
+    margin-top: 30px !important;
+  }
+
+  .navbar-nav .dropdown-menu {
+    padding-top: 15px !important;
+  }
+
+  .dropdown-menu {
+    width: 220px !important;
+  }
+
+  @keyframes rotate {from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}}
+  @-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}}
+
+  .element {
+    -webkit-animation: 3s rotate linear infinite;
+    animation: 3s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  }
+}

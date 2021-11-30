@@ -1,0 +1,48 @@
+.descargas {
+    margin-top: 300px;
+}
+
+.subtitulo{
+    text-align: center;
+    font-weight: 300;
+    color:#9f8ad0;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.contenedor-servicio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-servicio img {
+    width: 40%;
+}
+
+.checklist-servicio {
+    width: 45%;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+.n-service {
+    margin-bottom: 7px;
+    color: #fcfbfd;
+}
+
+.number {
+    display: inline-block;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    width: 35px;
+    height: 35px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 700;
+    line-height: 30px;
+    margin-right: 5px;
+}

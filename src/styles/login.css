@@ -1,0 +1,49 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.label-alert {
+    color: rgb(255, 0, 0) !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card{
+    background-color: rgba(36, 37, 39, 0.582) !important;
+}
+
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    padding-top: 6px;
+    color:#fff;
+}
+
+.home-container h1 {
+    color: #fff !important;
+}
+
+.home-label label {
+    color: rgb(47, 238, 9);
+}
+
+.gif {
+    border-radius: 20px;
+}
+
+.success {
+    display: grid;
+    justify-content: end;
+}

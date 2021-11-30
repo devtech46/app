@@ -1,0 +1,41 @@
+/*  TARJETAS  */
+
+.tarjetas {
+    margin-top: 150px !important;
+}
+
+.col-md-4 {
+  padding-top: 20px !important;
+}
+
+.card {
+    border-radius: 70px !important;
+}
+
+.card:hover {
+    box-shadow: 5px 10px 50px 1px rgba(248, 248, 248, 0.993);
+    transition: all 0.7s linear;
+}
+
+.mt-auto {
+    padding-top: 5px;
+    justify-content: center;
+}
+
+.text-title {
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.card-img, .card-img-top {
+    border-radius: 70px !important;
+}
+
+/*.card-img-top {
+    height: 400px !important;
+}*/
